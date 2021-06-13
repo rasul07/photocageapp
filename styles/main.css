@@ -1,0 +1,219 @@
+@font-face {
+	font-family: Intro; 
+	src: url(../fonts/Intro.woff) format("woff");
+} 
+
+body {
+	font-family: hv;
+	margin: 0;
+	padding: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+#topmenu {
+	background: url(../images/logo.png) no-repeat 12% 50%, linear-gradient(180deg, #fff, #e2e2e2);
+	height: 117px;
+}
+
+#topmenu ul {
+	float: right;
+	list-style: none;
+	margin: 0;
+}
+
+#topmenu li {
+	float: left;
+}
+
+#topmenu a {
+	background-position: center 33%;
+	background-repeat: no-repeat;
+	text-decoration: none;
+	color: #545454;
+	display: inline-block;
+	height: 57px;
+	padding-top: 60px;
+	text-align: center;
+	width: 107px;
+}
+
+#topmenu a:hover {
+	border-bottom: 4px solid #ff7d00;
+	border-right: 1px solid #c9c9c9;
+	border-left: 1px solid #c9c9c9;
+	height: 53px;
+	width: 105px;
+}
+
+#topmenu #home a {
+	background-image: url(../images/home.png);
+}
+
+#topmenu #home a:hover {
+	background-image: url(../images/home.png), linear-gradient(180deg, #fff, #cac2c2);
+}
+
+#topmenu #gallery a {
+	background-image: url(../images/gallery.png);
+}
+
+#topmenu #gallery a:hover {
+	background-image: url(../images/gallery.png), linear-gradient(180deg, #fff, #cac2c2);
+}
+
+#topmenu #members a {
+	background-image: url(../images/members.png);
+}
+
+#topmenu #members a:hover {
+	background-image: url(../images/members.png), linear-gradient(180deg, #fff, #cac2c2);
+}
+
+#topmenu #logout a {
+	background-image: url(../images/logout.png);
+}
+
+#topmenu #logout a:hover {
+	background-image: url(../images/logout.png), linear-gradient(180deg, #fff, #cac2c2);
+}
+
+
+#content h1 {
+	text-align: center;
+}
+
+#content #form_upload {
+	margin: 0 auto;
+	width: 60%;
+}
+
+#content .form_file {
+	border: 1px solid #cac2c2;
+	border-radius: 4px;
+	cursor: pointer;
+	float: left;
+	height: 46px;
+	margin-right: 15px;
+	padding: 2px;
+	position: relative;
+	width: 60%;
+}
+
+#content .form_file .shadow {
+	box-shadow: 0 0 3px 3px #e2dada;
+}
+
+#content input[type="file"] {
+	cursor: pointer;
+	height: 50px;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+}
+
+#content .form_file .form_button {
+	color: #fff;
+	background-color: #c2bfbf;
+	border-radius: 4px;
+	float: right;
+	height: 22px;
+	padding: 5px 14px;
+	text-align: center;
+	margin: 7px 4px 0 0;
+}
+
+#content input[type="submit"] {
+	border: none;
+	background: linear-gradient(180deg, #ffa400, #ff6700); 
+	border-radius: 4px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 120%;
+	font-weight: bold;
+	padding: 15px 35px;
+}
+
+#content #photos {
+	display: table;
+	margin: 10px auto 40px;
+}
+
+#photos .photo {
+	border: 1px solid #c2bfbf;
+	float: left;
+	margin: 30px 20px 0;
+	padding: 5px;
+}
+
+#photos .photo .main_photo {
+	width: 100%;
+}
+
+#photos .photo .date {
+	color: #c2bfbf;
+	display: block;
+	font-family: Intro;
+	font-size: 130%;
+	font-weight: normal;
+	margin: -35px 0 0 5px;
+}
+
+#photos .border {
+	border-bottom: 1px solid #c2bfbf;
+	padding: 3px 0;
+}
+
+#photos .border .text {
+	color: #c2bfbf;
+	float: left;
+	padding: 0 35px 0 5px;
+}
+
+#photos .border .favorites {
+	padding-top: 14px;
+	cursor: pointer;
+}
+
+#photos .share {
+	float: right;
+	padding: 3px 0;
+}
+
+#photos .share p {
+	color: #c2bfbf;
+	float: left;
+	margin-right: 10px;
+}
+
+#photos .share .icon {
+	background: url(../images/bg_share.png) no-repeat;
+	cursor: pointer;
+	float: left;
+	height: 22px;
+	margin: 15px 3px 0;
+	padding-top: 3px;
+	text-align: center;
+	width: 22px;
+}
+
+#photos .share .icon:hover {
+	background: url(../images/bg_share_active.png) no-repeat;
+}
+
+#photos .shadow {
+	box-shadow: 0 0 13px 4px #e6e6e6;
+	margin-left: -2px;
+	width: 102%;
+}
+
+footer {
+	color: #8b8a8a;
+	font-family: Arial;
+	text-align: right;
+}
